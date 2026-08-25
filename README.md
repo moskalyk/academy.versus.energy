@@ -1,5 +1,5 @@
 # versus academy
-a place to learn content and be tested against the knowledge of sol
+a place to learn content and be tested against the knowledge of sol. promise: you wont get lost (*pinky*pinky*).
 
 ## location
 found at academy.versus.energy
