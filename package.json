@@ -1,0 +1,25 @@
+{
+  "name": "academy",
+  "version": "0.1.0",
+  "description": "a minimal learning platform",
+  "main": "script.js",
+  "scripts": {
+    "cli:build":"node compiler/cli_build.js",
+    "build":"node compiler/index.js",
+    "watch": "node liveReload/index.js",
+    "start":"npx serve .",
+    "start:signalling": "node vendor/vfaas.net/signal-server/index.js",
+    "test": "node tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/moskalyk/kai.git"
+  },
+  "keywords": [
+    "metrics",
+    "fluid",
+    "education",
+    "teakjs"
+  ],
+  "license": "ISC"
+}
