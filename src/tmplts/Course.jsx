@@ -23,8 +23,8 @@ class Course extends EventTarget {
     
 	async view() {
 		return <>
-			<a class="block" onclick="this.select"><div class='grid'><p>\$\{this.publicMembers()[0]\}</p></div> </a>
-			<div style='display: none' id="\$\{this.publicMembers()[0]\}"><br/>
+			<a class="block" onclick="this.select"><div style='color: $\{this.publicMembers()[0] == "party chat" ? "purple":"black"\}' class='\$\{this.publicMembers()[0] == "party chat" ? "grid":"grid"\}'><p>\$\{this.publicMembers()[0]\}</p></div> </a>
+			<div style='display: none;' id="\$\{this.publicMembers()[0]\}"><br/>
 			<br/>
 			progress
 			    <div id="myProgress">

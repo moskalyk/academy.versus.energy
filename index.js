@@ -149,8 +149,8 @@ function runner() {
     	document.getElementById(self).style.display = 'block' 
         hideBlocks()
         move()
-    })(\'\$\{this.publicMembers().filter((el,i) => !RegExp.prototype.test.bind(/(<([^>]+)>)/i)(el) )\}\')""><div class='grid'><p>\$\{this.publicMembers()[0]\}</p></div> </a>
-			<div style='display: none' id="\$\{this.publicMembers()[0]\}"><br/>
+    })(\'\$\{this.publicMembers().filter((el,i) => !RegExp.prototype.test.bind(/(<([^>]+)>)/i)(el) )\}\')""><div style='color: $\{this.publicMembers()[0] == "party chat" ? "purple":"black"\}' class='\$\{this.publicMembers()[0] == "party chat" ? "grid":"grid"\}'><p>\$\{this.publicMembers()[0]\}</p></div> </a>
+			<div style='display: none;' id="\$\{this.publicMembers()[0]\}"><br/>
 			<br/>
 			progress
 			    <div id="myProgress">

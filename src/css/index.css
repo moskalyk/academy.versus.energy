@@ -1,71 +1,56 @@
-
-.row {
-    display: flex;  
-}
-.fixed{
-    width: 200px;
-}
-tr:nth-child(even) {
-  background-color: #E6E6E6;
-}
-
-table {
-    width: 800px;
-}
-
-td {
-    padding: 18px;
+body {
+      font-family: 'Courier';
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: auto;
-  width: 800px
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 800px
 }
 
-/*.container div {*/
-
-/*  border: 1px solid lightgrey;*/
-/*  padding: 10px;*/
-/*  color: black;*/
-/*  font-size: 14px;*/
-/*  margin: 20px;*/
-/*  align: left;*/
-/*}*/
 a {
     text-decoration: none;
 }
 
 .grid {
-  border: .1px solid lightgrey;
-  height: 200px;
-  max-width: 200px;
-   padding: 20px;
-  text-align: left;
-  font-family: 'Courier';
+    border: .1px solid lightgrey;
+    height: 200px;
+    max-width: 200px;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Courier';
     margin: 20px;
-  cursor: none;
+    cursor: none;
+}
 
+.grid-app {
+    border: .1px solid purple;
+    height: 200px;
+    max-width: 200px;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Courier';
+    margin: 20px;
+    cursor: none;
 }
 
 .grid:after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  top: 0;
-  cursor: none;
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    cursor: none;
 }
 
 #myProgress {
-  width: 90%;
+    width: 90%;
     background-color: grey;
-
 }
 
 #myBar {
-  width: 1%;
-  height: 10px;
-  margin: 0px !important;
-  background-color: green;
+    width: 1%;
+    height: 10px;
+    margin: 0px !important;
+    background-color: lime;
 }
